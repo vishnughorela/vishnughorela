@@ -1,0 +1,15 @@
+
+
+Q 4.........................................................
+
+  
+<script>
+        let num = prompt("divisible number,divisible number")
+        num = Number.parseInt(num)
+        if (num % 2 == 0 && num % 3 == 0 ){
+            console.log("dividible number")
+        }
+        else{
+            console.log(" no dividible number")
+        }
+    </script>
