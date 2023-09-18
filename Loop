@@ -1,0 +1,90 @@
+ // for loop start
+
+// 111111111111111111
+    // for( let i=0; i<50; i++)
+    // {
+    //     console.log(i);
+
+    // }
+      // 22222222222222222222
+    //   for(let i=0; i=50;i++){
+    //     console.log(i)
+    // } 
+
+
+
+
+
+    // 22222222222222
+    // for(let i=0; i<20; i++){
+    //     console.log(i)
+   // }
+    // 3333333333333333333/
+    // let sum = 0;
+    // let n = prompt("Enter the number of n")
+    // n = Number.parseInt(n)
+    // for(let i=0; i<n; i++){
+    //     console.log(i)
+    //     sum += (i+1)
+    // }
+    // console.log("sum of first" + n + " natural number is " + sum)
+    
+    
+    // // for loop start
+    // 111111111111111111
+
+    // let ab = {
+    //     Vishnu: 72,
+    //     Bunty: 80,
+    //     jaskaran:67,
+    //     vishu:60,
+    // }
+    // for(let a in ab ){
+    //     console.log("Marks of "+ a + "are" +ab[a] ) 
+    // }
+
+
+
+    // 2222222222222222  (same)  22222222222222222222222
+     
+    // let abc = {
+    //     vicku: 50,
+    //     visu: 49,
+    //     vijay: 34,
+    //     pawan:88,
+    //        }
+    //        for(let a in abc){
+    //         console.log("marks" + a +" are " +abc[a])
+
+    //        }
+        //   same 3333333    (same)  3333333
+       
+        
+        // let as = {
+        //     vis: 10,
+        //     aman: 20,
+        //     raj: 30,
+        //     guru: 40,
+        // }
+        // for ( let a in as ){
+        //     console.log(" all student marks" + a +  "  "+as[a])
+        // } 
+
+       
+        // for off loop
+        // 1111111111111111
+       
+        // for ( let b of "vishnu" ){
+        //     console.log(b)
+       // } 
+        // 22222222222222222222222
+       
+       // for ( let c of "vishnu kumar" ){
+         //   console.log(c)
+       // } 
+        // 333333333333333333333333333333
+       
+        // for ( let d of "vishnu ghorela" ){
+        //     console.log(d)
+        // } 
+
