@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #maindiv {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-top: 30px;
+  background: rgb(101, 237, 73); 
+
+
+
+}
+
+#maindiv2 { 
+  width: 70px;
+  height: 70px;
+  position: absolute; 
+  background-color: rgb(233, 91, 91);
+  transition: all 2s;
+}
+</style>
+<body>
+
+
+    <div id ="maindiv">
+        <div id ="maindiv2"> </div> 
+    </div>
+      
+<script>
+    function clickme() {
+        let id = null;
+      const elem = document.getElementById("maindiv2");  
+      elem.style.transform="translate(330px,0)";
+      
+      
+    }
+    
+    function clickme1() {
+        let id = null;    
+      const elem = document.getElementById("maindiv2");  
+      elem.style.transform="translate(330px,330px)"
+    }
+    
+    function clickme2() {
+        let id = null;    
+      const elem = document.getElementById("maindiv2");  
+      elem.style.transform="translate(0,330px)"
+    
+    }
+    function clickme3() {
+        let id = null;    
+      const elem = document.getElementById("maindiv2");  
+      elem.style.transform="translate(0,0)"
+      
+    }
+    function clickme4() {
+        let id = null;    
+      const elem = document.getElementById("maindiv2");  
+      elem.style.transform="translate(330px,330px)"
+     
+    }
+    window.setTimeout(clickme, 2000);
+    window.setTimeout(clickme1, 4000);
+    window.setTimeout(clickme2,6000);
+    window.setTimeout(clickme3, 8000);
+    window.setTimeout(clickme4, 10000);
+    // clickme();
+   
+
+
+    //   elem.style.marginTop="330px";
+    //   elem.style.marginLeft="0px";
+    //   elem.style.margintop="0";
+
+
+    // function clickme() {
+    //   let id = null;
+    //   const elem = document.getElementById("maindiv2");   
+    //   let pos = 0;
+    //   clearInterval(id);
+    //   id = setInterval(frame, 5);
+    //   function frame() {
+    //     if (pos == 330) {
+    //       clearInterval(id);
+    //     } else {
+    //       pos++; 
+    //       elem.style.top = pos + "px"; 
+    //       elem.style.left = pos + "px";
+    //     }
+    //   }
+    // }
+    </script>
+</body>
+</html>
