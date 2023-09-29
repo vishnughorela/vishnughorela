@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body id="a">
+
+    
+   <script>
+
+var body1 = document.getElementById('a');
+ 
+
+var table = document.createElement("table");
+table.setAttribute("border","1");
+table.style.color = 'red';
+table.style.fontSize = '50px';
+table.style.display = 'flex';
+table.style.justifyContent = 'center';
+table.style.alignItems = 'center';
+
+
+
+
+
+
+
+
+
+var tbody = document.createElement("tbody");
+var row = document.createElement("tr");
+var data1 = document.createElement("th");
+var data2 = document.createElement("th");
+var data3 = document.createElement("th");
+var da=document.createTextNode("Name");
+var da1=document.createTextNode("Class");
+var da221=document.createTextNode("Subject"); 
+
+
+
+var row2 = document.createElement("tr"); 
+var data11 = document.createElement("th");
+var data21 = document.createElement("th");
+var data31 = document.createElement("th");
+var da2=document.createTextNode("Vishnu");
+var da12=document.createTextNode("bca");
+var da22=document.createTextNode("js");
+
+
+var row3 = document.createElement("tr"); 
+var data11aa = document.createElement("th");
+var data21aa = document.createElement("th");
+var data31aa = document.createElement("th");
+var da2aa=document.createTextNode("Bunty");
+var da12aa=document.createTextNode("B.A.");
+var da22aa=document.createTextNode("js");
+
+
+table.appendChild(tbody);
+tbody.appendChild(row);
+row.appendChild(data1);
+row.appendChild(data2);
+row.appendChild(data3);
+data1.appendChild(da);
+data2.appendChild(da1);
+data3.appendChild(da221);
+
+
+tbody.appendChild(row2);
+row2.appendChild(data11);
+row2.appendChild(data21);
+row2.appendChild(data31);
+data11.appendChild(da2);
+data21.appendChild(da12);
+data31.appendChild(da22);
+body1.appendChild(table);
+
+
+tbody.appendChild(row3);
+row3.appendChild(data11aa);
+row3.appendChild(data21aa);
+row3.appendChild(data31aa);
+data11aa.appendChild(da2aa);
+data21aa.appendChild(da12aa);
+data31aa.appendChild(da22aa);
+body1.appendChild(table);
+
+
+
+
+function myfunction() {
+  document.getElementById("a").innerHTML = "Hello World";
+
+  
+}
+
+</script>
+
+
+<button onclick="myfunction(event)">Submit</button>
+    
+</body>
+</html>
