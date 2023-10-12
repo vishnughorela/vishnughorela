@@ -1,0 +1,398 @@
+User
+<!DOCTYPE html>
+<html lang="en">
+    <!-- dv2.style.paddingLeft = "10px"-----< inline css -->
+<!-- div1.classList.add("div1")   <---eternal css add -->
+    <!-- img.setAttribute("src", "js1.webp") -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .d {
+        /* color: #6a6d6d */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .dv1 {
+        background-color: red;
+        
+    }
+    .div1 {
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 1px #888888;
+                background-color: white;
+
+    }
+    .div2 {
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 1px #888888;
+        background-color: white;
+    }
+    .div2:hover {
+        box-shadow: 7px 7px 17px 1px #888888;
+
+    }
+    .div3 {
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 1px #888888;
+        background-color: white;
+    }
+    .div4 {
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 1px #888888;
+        background-color: white;
+
+    }
+    .div5 {
+        border-radius: 10px;
+        /* border: 1px solid; */
+        box-shadow: 5px 5px 10px 1px #888888;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .div {
+
+        width: 95%;
+        /* background-color: rgb(245, 240, 240); */
+        display: flex;
+        margin-top: 65px;
+        margin-left: 50px;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        border-radius: 20px;
+
+    }
+    
+    /* .div2{
+        
+    } */
+
+    
+</style>
+
+<body>
+
+
+    <div id="demo" class="d"></div>
+
+</body>
+
+<script>
+
+
+    var project = document.getElementById("demo")
+    var div = document.createElement("div")
+    div.classList.add("div")
+
+    // var h1 = document.createElement("h1")
+    // var text=document.createTextNode("Clothing for Men and Women")
+    // div.appendChild(h1) 
+    // h1.appendChild(text) 
+
+
+    var div1 = document.createElement("div")
+    div1.classList.add("div1")
+
+    // div1.classList.add("div")
+
+
+    div1.style.backgroundColor = "white"
+    div1.style.width = "18%"
+    div1.style.height = "400px"
+
+    var dv1 = document.createElement("div")
+
+    var img = document.createElement("img")
+    img.style.borderRadius = "50%"
+    // dv1.style.backgroundColor="red"
+    // dv1.style.width="100%"
+    // dv1.style.height="200px"
+    var img = document.createElement("img")
+    img.setAttribute("src", "js1.webp")
+    img.style.width = "100%"
+    img.style.height = "240px"
+
+    dv1.appendChild(img)
+
+    var dv2 = document.createElement("div")
+    dv2.style.paddingLeft = "10px"
+
+
+
+    var h1 = document.createElement("h4")
+    var texh1 = document.createTextNode("Men Navy Blue Solid Sweatshirt ")
+    dv2.appendChild(h1)
+    h1.appendChild(texh1)
+
+    var p = document.createElement("p")
+    var texh2 = document.createTextNode("United Colors of Benetton")
+    
+    dv2.appendChild(p)
+    p.appendChild(texh2) 
+
+
+    var p2 = document.createElement("p")
+    p2.style.color = "#009688";
+    p2.style.fontSize = "20px";
+    var texh3a = document.createTextNode("Rs 2599 ")
+    dv2.appendChild(p2)
+    p2.appendChild(texh3a)
+
+
+
+    div1.appendChild(dv1)
+    div1.appendChild(dv2)
+
+    //  22222222222222222222222222222222 start
+
+    var div2 = document.createElement("div")
+    div2.classList.add("div2")
+
+    // div2.style.backgroundColor = "pink"
+    div2.style.width = "18%"
+    div2.style.height = "400px"
+
+
+    var divbox2 = document.createElement("div")
+    // divbox2.style.backgroundColor = "green"
+    divbox2.style.width = "100%"
+    divbox2.style.height = "240px"
+    var img1 = document.createElement("img")
+    img1.style.borderRadius = "10px"
+
+    
+    img1.setAttribute("src", "js2.webp")
+    img1.style.width = "100%"
+    img1.style.height = "240px"
+
+    divbox2.appendChild(img1)
+
+
+    let divbox3 = document.createElement("div")
+    
+
+
+
+    divbox3.style.paddingLeft = "10px"
+
+    var hadding = document.createElement("h4")
+    
+    var texh1z = document.createTextNode("Men Black MAMGP T7 Sweat Sporty Jacket")
+    divbox3.appendChild(hadding)
+    hadding.appendChild(texh1z)
+
+    var paragraph6 = document.createElement("p")
+    var texh2 = document.createTextNode("Puma")
+    
+    divbox3.appendChild(paragraph6)
+    paragraph6.appendChild(texh2)
+
+    var paragraph7 = document.createElement("p")
+    paragraph7.style.color = "#009688";
+    paragraph7.style.fontSize = "20px";
+    var texh2 = document.createTextNode("Rs 7999")
+    
+    divbox3.appendChild(paragraph7)
+    paragraph7.appendChild(texh2)
+   
+       
+    
+    
+
+
+    div2.appendChild(divbox2)
+    div2.appendChild(divbox3)
+
+    //     //  div2 end-------------------
+    //     //  div3 start-------------------
+
+
+    var div3 = document.createElement("div")
+    div3.classList.add("div3")
+
+    // div3.style.backgroundColor = "pink"
+    div3.style.width = "18%"
+    div3.style.height = "400px"
+
+
+    var divbox4 = document.createElement("div")
+    // divbox4.style.backgroundColor = "red"
+    divbox4.style.width = "100%"
+    divbox4.style.height = "240px"
+    var img2 = document.createElement("img")
+    img2.style.borderRadius = "10px"
+
+    img2.setAttribute("src", "js3.webp")
+    img2.style.width = "100%"
+    img2.style.height = "240px"
+    divbox4.appendChild(img2)
+
+     
+    var divbox5 = document.createElement("div")
+    divbox5.style.paddingLeft = "10px"
+    let vis = document.createElement("h4")
+
+    // let tex2 = document.createTextNode("hello")
+
+    var hadding1 = document.createElement("h4")
+    var texhz = document.createTextNode(" Men Black Action Parkview Lifestyle .Shoes")
+    divbox5.appendChild(hadding1)
+    hadding1.appendChild(texhz)
+   
+
+
+
+    var paragraph4 = document.createElement("p")
+    var texh2 = document.createTextNode("Hush Puppies")
+    
+    divbox5.appendChild(paragraph4)
+    paragraph4.appendChild(texh2)
+
+    var paragraph5 = document.createElement("p")
+    paragraph5.style.color = "#009688";
+    paragraph5.style.fontSize = "20px";
+    var texh2 = document.createTextNode("Rs 6999")
+    
+    divbox5.appendChild(paragraph5)
+    paragraph5.appendChild(texh2)
+
+    // divbox5.appendChild(h4)
+    // h4.appendChild(tex2)
+
+    div3.appendChild(divbox4)
+    div3.appendChild(divbox5)
+
+
+    //     //  div end-333------------------
+    //     //  div start-4444444444------------------
+
+
+    var div4 = document.createElement("div")
+    div4.classList.add("div4")
+
+    // div4.style.backgroundColor = "pink"
+    div4.style.width = "18%"
+    div4.style.height = "400px"
+
+
+    var divbox6 = document.createElement("div")
+    // divbox6.style.backgroundColor = "green"
+    divbox6.style.width = "100%"
+    divbox6.style.height = "240px"
+    var img3 = document.createElement("img")
+    img3.style.borderRadius = "10px"
+
+    img3.setAttribute("src", "js4.webp")
+    img3.style.width = "100%"
+    img3.style.height = "240px"
+    divbox6.appendChild(img3)
+
+    var divbox7 = document.createElement("div")
+    divbox7.style.paddingLeft = "10px"
+
+    var hadding2 = document.createElement("h4")
+    var texz = document.createTextNode("Women Black Solid Lightweight Leather Jacket ")
+    divbox7.appendChild(hadding2)
+    hadding2.appendChild(texz)
+    
+
+    var paragraph2 = document.createElement("p")
+    var texh2 = document.createTextNode("BARESKIN")
+    
+    divbox7.appendChild(paragraph2)
+    paragraph2.appendChild(texh2)
+
+    var paragraph3 = document.createElement("p")
+    paragraph3.style.color = "#009688";
+    paragraph3.style.fontSize = "20px";
+    var texh2 = document.createTextNode("Rs 9999")
+    
+
+
+    divbox7.appendChild(paragraph3)
+    paragraph3.appendChild(texh2)
+
+    
+
+    div4.appendChild(divbox6)
+    div4.appendChild(divbox7)
+
+
+    // // end=============4444444
+
+    // 5 start---------------
+    var div5 = document.createElement("div5")
+    div5.classList.add("div5")
+
+    // div5.style.backgroundColor = "pink"
+    div5.style.width = "18%"
+    div5.style.height = "400px"
+
+    var divbox8 = document.createElement("div")
+    // divbox8.style.backgroundColor = "red"
+    divbox8.style.width = "100%"
+    divbox8.style.height = "240px"
+    var img5 = document.createElement("img")
+    img5.style.borderRadius = "10px"
+
+    img5.setAttribute("src", "js5.webp")
+    img5.style.width = "100%"
+    img5.style.height = "240px"
+    divbox8.appendChild(img5)
+
+    var divbox9 = document.createElement("div") 
+    divbox9.style.paddingLeft = "10px"
+
+    var hadding3 = document.createElement("h4")
+    var tz = document.createTextNode(" Women Blue Solid Shirt Dress ")
+    divbox9.appendChild(hadding3)
+    hadding3.appendChild(tz)
+    
+    var paragraph = document.createElement("p")
+    var texh2 = document.createTextNode("SASSAFRAS")
+    
+    divbox9.appendChild(paragraph)
+    paragraph.appendChild(texh2) 
+
+    var paragraph1 = document.createElement("p")
+    paragraph1.style.color = "#009688";
+    paragraph1.style.fontSize = "20px";
+    var texh2 = document.createTextNode("Rs 5200")
+    
+    divbox9.appendChild(paragraph1)
+    paragraph1.appendChild(texh2) 
+       
+
+
+    div5.appendChild(divbox8)
+    div5.appendChild(divbox9)
+//         5end=------------
+    // top
+
+    project.appendChild(div)
+    div.appendChild(div1)
+    div.appendChild(div2)
+    div.appendChild(div3)
+    div.appendChild(div4)
+    div.appendChild(div5)
+    
+
+
+
+
+</script>
+
+
+<!-- // img.setAttribute("src", "js1.webp")
+    
+// dv1. style .classList(img)
+
+// div1.appendChild(img) -->
+
+</html>/
